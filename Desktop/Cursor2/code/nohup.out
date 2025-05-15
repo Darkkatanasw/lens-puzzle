@@ -1,0 +1,18 @@
+/Users/ch/Desktop/Cursor2/code/auto_tag_manager.py:59: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  file_id = str(int(row[0]))  # Convert to integer to remove decimal points
+/Users/ch/Desktop/Cursor2/code/auto_tag_manager.py:60: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  twi_date = row[2]  # twi column
+/Users/ch/Desktop/Cursor2/code/auto_tag_manager.py:61: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  inst_date = row[3]  # inst column
+/Users/ch/Desktop/Cursor2/code/auto_tag_manager.py:59: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  file_id = str(int(row[0]))  # Convert to integer to remove decimal points
+/Users/ch/Desktop/Cursor2/code/auto_tag_manager.py:60: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  twi_date = row[2]  # twi column
+/Users/ch/Desktop/Cursor2/code/auto_tag_manager.py:61: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  inst_date = row[3]  # inst column
+/Users/ch/Desktop/Cursor2/code/auto_tag_manager.py:59: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  file_id = str(int(row[0]))  # Convert to integer to remove decimal points
+/Users/ch/Desktop/Cursor2/code/auto_tag_manager.py:60: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  twi_date = row[2]  # twi column
+/Users/ch/Desktop/Cursor2/code/auto_tag_manager.py:61: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  inst_date = row[3]  # inst column
