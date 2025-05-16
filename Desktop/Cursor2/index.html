@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lens Puzzle - Glass Mosaic</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="instructions">
+            <div class="how-to-play">
+                <h2>How to Play</h2>
+                <ol>
+                    <li>Click <b>Shuffle</b> to start the puzzle.</li>
+                    <li>Tap or click a tile, then tap/click an adjacent tile to swap them. Tiles will slide smoothly.</li>
+                    <li>Some tiles are <b>rotated</b>. Double-click, right-click, or tap a tile to rotate it 90°.</li>
+                    <li>Arrange and rotate all tiles to restore the original image.</li>
+                    <li>Click <b>Hint</b> to briefly see the completed image.</li>
+                    <li>Try to solve the puzzle in as few moves and as quickly as possible!</li>
+                </ol>
+            </div>
+        </div>
+        <div class="game-header">
+            <h1>Lens Puzzle</h1>
+            <div class="stats">
+                <span class="moves">Moves: <span id="moves">0</span></span>
+                <span class="timer">Time: <span id="timer">00:00</span></span>
+            </div>
+        </div>
+        <div class="game-container">
+            <canvas id="puzzleCanvas"></canvas>
+            <div class="controls">
+                <button id="shuffleBtn">Shuffle</button>
+                <button id="resetBtn">Reset</button>
+                <select id="difficulty">
+                    <option value="3">Easy (3x3)</option>
+                    <option value="4">Medium (4x4)</option>
+                    <option value="5">Hard (5x5)</option>
+                </select>
+            </div>
+            <div class="extra-controls">
+                <button id="hintBtn">Hint</button>
+            </div>
+        </div>
+        <div id="winModal" style="display:none;">
+            <div class="modal-content">
+                <h2>Congratulations!</h2>
+                <p>You solved the puzzle in <span id="finalMoves">0</span> moves and <span id="finalTime">00:00</span>!</p>
+                <button id="playAgainBtn">Play Again</button>
+            </div>
+        </div>
+        <div id="hintOverlay" style="display:none;"></div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html> 
